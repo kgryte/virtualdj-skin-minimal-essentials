@@ -128,7 +128,7 @@
 		<define color="buttonoff2" value="#2b2c2f"/> 
 		<define color="buttonon" value="#464748"/>
 
-    	<define color="buttonon1" value="#136b87" deck="left"/>
+		<define color="buttonon1" value="#136b87" deck="left"/>
 		<define color="buttonon2" value="#185b71" deck="left"/>
 		<define color="buttonover" value="#233d48" deck="left"/>
 		<define color="buttonover1" value="#233d48" deck="left"/>
@@ -165,7 +165,7 @@
 	</group>
 
 	<group name="contrast-mode" condition="var_equal '@$colorscheme' 1">
-	   <visual name="backgroundcolor" visibility="0.8">
+		<visual name="backgroundcolor" visibility="0.8">
 			<pos x="0" y="0"/>
 			<size width="1920" height="1080"/>
 			<off color="#262728" shape="square"/>
@@ -596,17 +596,17 @@
 						</group>
 					</panel>
 					<panel name="center_circle"  visibility="not is_video 'active' ? var_not_equal '@$jogcoverart' 1 ? true : not loaded : 0">
-		        		<visual name="center_outer" x="+68" y="+68" tooltip="">
-		                    <size width="212-68-68" height="212-68-68"/>
-		                    <off color="knobfill" border="display" border_size="12" shape="circle"/>
-		                </visual>
-		                <slider orientation="round" action="get_rotation" x="+106-28" y="+106-28" width="56" height="56" >
-							<fader color="darker" width="8" height="16" radius="14"/>
+		        <visual name="center_outer" x="+68" y="+68" tooltip="">
+		        	<size width="212-68-68" height="212-68-68"/>
+		        	<off color="knobfill" border="display" border_size="12" shape="circle"/>
+		        </visual>
+		        <slider orientation="round" action="get_rotation" x="+106-28" y="+106-28" width="56" height="56" >
+		        	<fader color="darker" width="8" height="16" radius="14"/>
 						</slider>
-		                <visual name="center_inner" x="+106-17" y="+106-17" tooltip="">
-		                    <size width="34" height="34"/>
-		                    <off color="knobfill" border="darker" border_size="10" shape="circle"/>
-		                </visual>
+						<visual name="center_inner" x="+106-17" y="+106-17" tooltip="">
+							<size width="34" height="34"/>
+							<off color="knobfill" border="darker" border_size="10" shape="circle"/>
+						</visual>
 					</panel>
 					<scratch>
 						<pos x="+0" y="+0"/>
@@ -615,7 +615,7 @@
 					</scratch>
 				</group>
 			</define>
-		   <define class="songpos" colorPlayed="darker" colorBass="colorbass" colorMed="colormed" colorHigh="colorhigh" placeholders="width">
+			<define class="songpos" colorPlayed="darker" colorBass="colorbass" colorMed="colormed" colorHigh="colorhigh" placeholders="width">
 				<pos x="+1" y="+1"/>
 				<size width="[WIDTH]" height="28-2"/>
 				<wave>
@@ -700,10 +700,10 @@
 </group>
 <group name="topbar">
 	<group name="applicationbuttons" condition="is_mac">
-		<logo>
+		<!-- <logo>
 			<pos x="1920-115" y="8"/>
 			<size width="115" height="27"/>
-		</logo>
+		</logo> -->
 		<button action="close">
 			<pos x="15" y="13"/>
 			<size width="15" height="15"/>
@@ -727,10 +727,10 @@
 		</button>
 	</group>
 	<group name="applicationbuttons" condition="is_pc">
-		<logo>
+		<!-- <logo>
 			<pos x="10" y="8"/>
 			<size width="115" height="27"/>
-		</logo>
+		</logo> -->
 		<button action="minimize">
 			<pos x="1920-80-40" y="0"/>
 			<size width="40" height="43"/>
