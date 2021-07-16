@@ -61,6 +61,16 @@ In [VirtualDJ][virtualdj], open Settings and select the skin from
 Settings -> Interface -> Minimal Essentials
 ```
 
+## Notes
+
+-   Included in this repository is a keyboard mapping which pairs with the skin, providing keyboard shortcuts for each of the main user interface elements. To install, copy the mappings to the
+
+    ```text
+    ~/path/to/VirtualDJ/Mappers
+    ```
+
+    directory.
+
 * * *
 
 ## Copyright
