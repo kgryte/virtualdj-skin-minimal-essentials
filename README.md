@@ -30,6 +30,37 @@ limitations under the License.
 
 > A minimal "essentials" skin for [VirtualDJ][virtualdj].
 
+This skin is derived from the default [VirtualDJ][virtualdj] "Essentials" skin and includes modifications intended to streamline the user interface by removing functionality which is less commonly used in non-mixing contexts (e.g., when DJing at a salsa dance social).
+
+Notably, the skin does not include elements for
+
+-   effects
+-   looping
+-   padding
+-   scratching
+
+as these elements are more common in traditional club contexts.
+
+## Installation
+
+Download the latest release from
+
+```text
+https://github.com/kgryte/virtualdj-skin-minimal-essentials/releases
+```
+
+Extract the downloaded archive to
+
+```text
+~/path/to/VirtualDJ/Skins/minimal-essentials
+```
+
+In [VirtualDJ][virtualdj], open Settings and select the skin from
+
+```text
+Settings -> Interface -> Minimal Essentials
+```
+
 ## Copyright
 
 Copyright &copy; 2021 Athan Reines
