@@ -23,14 +23,9 @@ limitations under the License.
 > A minimal "essentials" skin for [VirtualDJ][virtualdj].
 
 <div class="image" align="center">
-    <br>
-    <br>
     <a href="https://github.com/kgryte/virtualdj-skin-minimal-essentials" />
         <img src="https://cdn.jsdelivr.net/gh/kgryte/virtualdj-skin-minimal-essentials@b33ee35b6707bea7baae66e9882f0672b8a5cc94/screenshot.png" alt="Screenshot">
     </a>
-    <br>
-    <br>
-    <br>
     <br>
 </div>
 
