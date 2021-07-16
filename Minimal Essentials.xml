@@ -1558,13 +1558,13 @@
 	<zoomed x="10" y="258" width="1920-20" height="1080-258-10"/>
 </browser>
 
-<oninit action="setting_setdefault skinWaveformType 'shapes'"/>
-<oninit action="setting_setdefault coverflow 'smart'"/>
-<oninit action="setting_setdefault browserPadding 50%"/>
-<oninit action="setting_setdefault EqMode 'modernEQ'"/>
-<oninit action="setting_setdefault autoBPMMatch 'smart'"/>
-<oninit action="setting_setdefault autoKey on"/>
-<oninit action="setting_setdefault smartPlay on"/>
+<oninit action="setting_setdefault skinWaveformType 'colors'"/>
+<oninit action="setting_setdefault coverflow 'no'"/>
+<oninit action="setting_setdefault browserPadding 'Small'"/>
+<oninit action="setting_setdefault EqMode 'frequency'"/>
+<oninit action="setting_setdefault autoBPMMatch 'no'"/>
+<oninit action="setting_setdefault autoKey off"/>
+<oninit action="setting_setdefault smartPlay off"/>
 <oninit action="setting_setdefault autoPitchLock on"/>
 <oninit action="deck all effect_3slots_layout off"/>
 
