@@ -42,4 +42,5 @@
 	<map value="UP" action="browser_scroll -1" />
 	<map value="CMD+A" action="playlist_add" />
 	<map value="ALT+A" action="automix" />
+	<map value="SHIFT+A" action="automix_skip" />
 </mapper>
