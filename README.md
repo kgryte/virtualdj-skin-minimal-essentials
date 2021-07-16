@@ -69,7 +69,11 @@ Settings -> Interface -> Minimal Essentials
     ~/path/to/VirtualDJ/Mappers
     ```
 
-    directory.
+    directory. Once copied, open Settings and select the mapping from
+
+    ```text
+    Settings -> Mapping
+    ```
 
 * * *
 
