@@ -700,10 +700,10 @@
 </group>
 <group name="topbar">
 	<group name="applicationbuttons" condition="is_mac">
-		<!-- <logo>
+		<logo>
 			<pos x="1920-115" y="8"/>
 			<size width="115" height="27"/>
-		</logo> -->
+		</logo>
 		<button action="close">
 			<pos x="15" y="13"/>
 			<size width="15" height="15"/>
@@ -727,10 +727,10 @@
 		</button>
 	</group>
 	<group name="applicationbuttons" condition="is_pc">
-		<!-- <logo>
+		<logo>
 			<pos x="10" y="8"/>
 			<size width="115" height="27"/>
-		</logo> -->
+		</logo>
 		<button action="minimize">
 			<pos x="1920-80-40" y="0"/>
 			<size width="40" height="43"/>
