@@ -61,7 +61,7 @@ In [VirtualDJ][virtualdj], open Settings and select the skin from
 Settings -> Interface -> Minimal Essentials
 ```
 
----
+* * *
 
 ## Copyright
 
