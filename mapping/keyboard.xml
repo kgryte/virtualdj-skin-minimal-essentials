@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mapper device="KEYBOARD" author="Athan Reines" version="850" date="2021-07-16">
+<mapper device="KEYBOARD" author="Athan Reines" version="850" date="2021-07-20">
 	<map value="SPACE" action="play_pause" />
 	<map value="LEFT" action="crossfader &amp; param_greater 0.0 ? deck left play &amp; auto_crossfade 3000ms 0% &amp; deck left pfl 0% &amp; deck right pfl 100% &amp; deck right select : nothing" />
 	<map value="RIGHT" action="crossfader &amp; param_smaller 1.0 ? deck right play &amp; auto_crossfade 3000ms 100% &amp; deck right pfl 0% &amp; deck left pfl 100% &amp; deck left select : nothing" />
 	<map value="CTRL+F" action="search" />
-	<map value="CMD+UP" action="pitch +0.1%" />
-	<map value="CMD+DOWN" action="pitch -0.1%" />
+	<map value="CMD+UP" action="pitch +1%" />
+	<map value="CMD+DOWN" action="pitch -1%" />
 	<map value="TAB" action="deck active select &amp; crossfader 1.0 ? deck 1 pfl 100% &amp; deck 2 pfl 0% : crossfader 0.0 ? deck 1 pfl 0% &amp; deck 2 pfl 100%" />
-	<map value="ALT+LEFT" action="goto_start" />
 	<map value="CMD+F" action="search" />
 	<map value="CMD+U" action="unload" />
 	<map value="CMD+Z" action="undo_load" />
@@ -20,8 +19,8 @@
 	<map value="ALT+M" action="eq_mid_freq -1%" />
 	<map value="CMD+L" action="eq_low_freq +1%" />
 	<map value="ALT+L" action="eq_low_freq -1%" />
-	<map value="ALT+DOWN" action="pitch -1%" />
-	<map value="ALT+UP" action="pitch +1%" />
+	<map value="ALT+DOWN" action="pitch -0.1%" />
+	<map value="ALT+UP" action="pitch +0.1%" />
 	<map value="CMD+=" action="level +1%" />
 	<map value="CMD+-" action="level -1%" />
 	<map value="ALT+=" action="headphone_volume +1%" />
@@ -31,11 +30,7 @@
 	<map value="CMD+B" action="browser_zoom" />
 	<map value="CMD+S" action="set_cue 1" />
 	<map value="CMD+D" action="delete_cue 1" />
-	<map value="CMD+LEFT" action="goto_cue 1" />
-	<map value="SHIFT+LEFT" action="beatjump -1" />
-	<map value="SHIFT+RIGHT" action="beatjump +1" />
-	<map value="SHIFT+UP" action="beatjump +8" />
-	<map value="SHIFT+DOWN" action="beatjump -8" />
+	<map value="CMD+LEFT" action="beatjump -8" />
 	<map value="CMD+P" action="prelisten" />
 	<map value="ALT+P" action="prelisten_stop" />
 	<map value="DOWN" action="browser_scroll +1" />
@@ -43,4 +38,9 @@
 	<map value="CMD+A" action="playlist_add" />
 	<map value="ALT+A" action="automix" />
 	<map value="SHIFT+A" action="automix_skip" />
+	<map value="ALT+LEFT" action="beatjump -1" />
+	<map value="ALT+RIGHT" action="beatjump +1" />
+	<map value="CMD+RIGHT" action="beatjump +8" />
+	<map value="CMD+1" action="goto_cue 1" />
+	<map value="CMD+VKEY_33" action="goto_start" />
 </mapper>
